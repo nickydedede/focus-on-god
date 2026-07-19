@@ -198,3 +198,42 @@ footer h3{
     color:#c1121f;
     margin-bottom:10px;
 }
+
+.why-us{
+    padding:100px 10%;
+    text-align:center;
+    background:#f8f8f8;
+}
+
+.why-us h2{
+    font-size:40px;
+    color:#111111;
+    margin-bottom:50px;
+}
+
+.why-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+.why-card{
+    background:white;
+    padding:35px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.why-card:hover{
+    transform:translateY(-8px);
+}
+
+.why-card h3{
+    color:#c1121f;
+    margin-bottom:15px;
+}
+
+.why-card p{
+    line-height:1.7;
+}
