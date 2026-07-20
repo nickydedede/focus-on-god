@@ -237,3 +237,16 @@ footer h3{
 .why-card p{
     line-height:1.7;
 }
+
+.logo img{
+    width:90px;
+    height:auto;
+}
+
+nav{
+    padding:15px 20px;
+}
+
+nav ul{
+    align-items:center;
+}
