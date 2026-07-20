@@ -331,3 +331,39 @@ footer h3{
         width:80px;
     }
 }
+
+/* Testimonials */
+
+.testimonials{
+    padding:100px 10%;
+    background:#ffffff;
+    text-align:center;
+}
+
+.testimonials h2{
+    font-size:40px;
+    margin-bottom:50px;
+}
+
+.testimonial-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+
+.testimonial-card{
+    background:#f8f8f8;
+    padding:35px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.testimonial-card p{
+    line-height:1.8;
+    font-style:italic;
+    margin-bottom:20px;
+}
+
+.testimonial-card h4{
+    color:#c1121f;
+}
