@@ -15,46 +15,90 @@ body{
     color:#111111;
 }
 
+/* ===========================
+   HEADER & NAVIGATION
+=========================== */
+
 header{
-    background:#111111;
     position:fixed;
-    width:100%;
     top:0;
     left:0;
+    width:100%;
+    background:#111111;
     z-index:1000;
+    box-shadow:0 3px 12px rgba(0,0,0,.2);
 }
 
 nav{
     max-width:1200px;
     margin:auto;
+    padding:15px 25px;
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:20px;
 }
 
-nav h2{
-    color:#c1121f;
-    font-size:28px;
-    font-weight:700;
+.logo img{
+    width:65px;
+    height:auto;
+    display:block;
 }
 
-nav ul{
+.nav-links{
     display:flex;
     list-style:none;
-    gap:30px;
+    gap:35px;
 }
 
-nav ul li a{
-    text-decoration:none;
+.nav-links a{
     color:white;
+    text-decoration:none;
     font-weight:500;
     transition:.3s;
 }
 
-nav ul li a:hover{
+.nav-links a:hover{
     color:#c1121f;
 }
+
+.shop-btn{
+    background:#c1121f;
+    color:white;
+    text-decoration:none;
+    padding:12px 28px;
+    border-radius:30px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.shop-btn:hover{
+    background:white;
+    color:#c1121f;
+}
+
+@media (max-width:768px){
+
+    nav{
+        flex-direction:column;
+        gap:20px;
+    }
+
+    .nav-links{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:20px;
+    }
+
+    .shop-btn{
+        width:100%;
+        text-align:center;
+    }
+
+}
+
+/* ===========================
+   HERO SECTION
+=========================== */
 
 .hero{
     height:100vh;
@@ -121,6 +165,10 @@ nav ul{
 
 }
 
+/* ===========================
+   FEATURED PRODUCTS
+=========================== */
+
 .featured{
     padding:100px 10%;
     text-align:center;
@@ -167,6 +215,10 @@ nav ul{
     margin-bottom:20px;
 }
 
+/* ===========================
+   ABOUT PREVIEW
+=========================== */
+
 .about-preview{
     background:#111111;
     color:white;
@@ -187,6 +239,10 @@ nav ul{
     font-size:18px;
 }
 
+/* ===========================
+   FOOTER
+=========================== */
+
 footer{
     background:#000;
     color:white;
@@ -198,6 +254,10 @@ footer h3{
     color:#c1121f;
     margin-bottom:10px;
 }
+
+/* ===========================
+   WHY CHOOSE US
+=========================== */
 
 .why-us{
     padding:100px 10%;
@@ -237,6 +297,10 @@ footer h3{
 .why-card p{
     line-height:1.7;
 }
+
+/* ===========================
+   RESPONSIVE
+=========================== */
 
 .logo img{
     width:60px;
