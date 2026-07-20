@@ -239,14 +239,20 @@ footer h3{
 }
 
 .logo img{
-    width:90px;
+    width:60px;
     height:auto;
 }
 
-nav{
-    padding:15px 20px;
+/* Tablets */
+@media (min-width:768px){
+    .logo img{
+        width:70px;
+    }
 }
 
-nav ul{
-    align-items:center;
+/* Laptops and desktops */
+@media (min-width:1024px){
+    .logo img{
+        width:80px;
+    }
 }
