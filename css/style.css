@@ -367,3 +367,41 @@ footer h3{
 .testimonial-card h4{
     color:#c1121f;
 }
+
+.badge{
+    display:inline-block;
+    background:#c1121f;
+    color:white;
+    padding:6px 15px;
+    border-radius:20px;
+    font-size:13px;
+    font-weight:600;
+    margin-top:20px;
+}
+
+.price{
+    color:#c1121f;
+    font-size:22px;
+    font-weight:700;
+    margin:15px 0 5px;
+}
+
+.sizes{
+    color:#666;
+    margin-bottom:20px;
+}
+
+.product-btn{
+    display:inline-block;
+    margin-bottom:25px;
+    text-decoration:none;
+    background:#111;
+    color:white;
+    padding:12px 28px;
+    border-radius:30px;
+    transition:.3s;
+}
+
+.product-btn:hover{
+    background:#c1121f;
+}
