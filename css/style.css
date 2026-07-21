@@ -551,6 +551,9 @@ header{
     opacity:0;
     transform:translateX(20px);
 
+    
+    transition:opacity .3s ease;
+    
     animation:chatPopup 8s infinite;
 }
 
