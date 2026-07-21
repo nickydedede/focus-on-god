@@ -39,9 +39,14 @@ nav{
 }
 
 .logo img{
-    width:65px;
+    width:70px;
     height:auto;
     display:block;
+    transition:transform .4s ease;
+}
+
+.logo img:hover{
+    transform:scale(1.08);
 }
 
 .nav-links{
@@ -190,11 +195,15 @@ nav{
     border-radius:50px;
     transition:.3s;
     font-weight:600;
+    transition:all .3s ease;
+    cursor:pointer;
 }
 
 .btn:hover{
     background:white;
     color:#c1121f;
+    transform:translateY(-3px);
+    box-shadow:0 10px 25px rgba(193,18,31,.35);
 }
 
 @media(max-width:768px){
@@ -249,7 +258,8 @@ nav ul{
 }
 
 .card:hover{
-    transform:translateY(-10px);
+    transform:translateY(-12px);
+    box-shadow:0 20px 45px rgba(0,0,0,.18);
 }
 
 .card img{
