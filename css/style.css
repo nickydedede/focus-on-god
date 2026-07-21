@@ -528,3 +528,57 @@ header{
     width:34px;
     height:34px;
 }
+
+.chat-container{
+    position:fixed;
+    bottom:25px;
+    right:25px;
+    display:flex;
+    align-items:center;
+    gap:12px;
+    z-index:999;
+}
+
+.chat-message{
+    background:white;
+    color:#111;
+    padding:12px 18px;
+    border-radius:30px;
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+    font-size:15px;
+    font-weight:500;
+
+    opacity:0;
+    transform:translateX(20px);
+
+    animation:chatPopup 8s infinite;
+}
+
+@keyframes chatPopup{
+
+    0%{
+        opacity:0;
+        transform:translateX(20px);
+    }
+
+    10%{
+        opacity:1;
+        transform:translateX(0);
+    }
+
+    60%{
+        opacity:1;
+        transform:translateX(0);
+    }
+
+    80%{
+        opacity:0;
+        transform:translateX(20px);
+    }
+
+    100%{
+        opacity:0;
+        transform:translateX(20px);
+    }
+
+}
