@@ -1,10 +1,10 @@
 const messages = [
     "✝️ Wear Your Faith Boldly.",
-    "👕 Need help choosing a size?",
-    "🔥 Explore our latest collections!",
-    "📦 Ask us about delivery.",
-    "❤️ We'd love to help you place an order!",
-    "💬 Chat with Focus On God Apparel!"
+    "👕 Premium Christian Apparel.",
+    "🇧🇼 Proudly designed in Botswana.",
+    "📦 Nationwide delivery available.",
+    "❤️ Need help? We're one message away.",
+    "🔥 Explore our Collections."
 ];
 
 const chatMessage = document.getElementById("chatMessage");
